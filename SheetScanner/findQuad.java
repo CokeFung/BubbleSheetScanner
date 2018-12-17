@@ -38,13 +38,13 @@ public class findQuad {
         Mat cannedImage = new Mat(size, CvType.CV_8UC1);
 
         Imgproc.resize(src,resizedImage,size);
-        write2File(resizedImage, "1_resize.png");
+        write2File(resizedImage, "step_1.png");
         Imgproc.cvtColor(resizedImage, grayImage, Imgproc.COLOR_RGBA2GRAY, 4);
-        write2File(grayImage, "2_gray.png");
+        //write2File(grayImage, "2_gray.png");
         Imgproc.GaussianBlur(grayImage, grayImage, new Size(5, 5), 0);
-        write2File(grayImage, "3_gray2.png");
+        //write2File(grayImage, "3_gray2.png");
         Imgproc.Canny(grayImage, cannedImage, 75, 200);
-        write2File(cannedImage, "4_canny.png");
+        //write2File(cannedImage, "4_canny.png");
 
         ArrayList<MatOfPoint> contours = new ArrayList<MatOfPoint>();
         Mat hierarchy = new Mat();
@@ -97,7 +97,7 @@ public class findQuad {
         //System.out.println("P4 : " + temp_double[0] + " " + temp_double[1]);
         Imgproc.circle(source, p4, 8, new Scalar(0, 255, 255), -1);
 
-        write2File(source, "5_circleMark4Point.png");
+        write2File(source, "step_2.png");
 
         List<Point> tempPoint = new ArrayList<Point>();
         tempPoint.add(p1);
@@ -125,7 +125,7 @@ public class findQuad {
         //System.out.println("Size :" + source.width() + " " + source.height());
         Imgproc.warpPerspective(source, trans, transform, new Size(2480, 3508));
 
-        write2File(trans, "6_perspectiveTransform.png");
+        write2File(trans, "step_3.png");
         return trans;
     }
 
@@ -143,8 +143,8 @@ public class findQuad {
         Imgproc.GaussianBlur(quad.gray, quad.gray, new Size(5, 5), 0);
         Imgproc.Canny(quad.gray, quad.canny, 90, 20);
 
-        write2File(quad.gray, "8_graytrns.png");
-        write2File(thresh, "9_thresh.png");
+        //write2File(quad.gray, "8_graytrns.png");
+        //write2File(thresh, "9_thresh.png");
 ;
         /*
         List<Mat> tags = new ArrayList<>();
@@ -237,7 +237,7 @@ public class findQuad {
 
 
         //System.out.println("\nques: " + questionContr.size());
-        write2File(quad.trans, "adadad1.png");
+        write2File(quad.trans, "result.png");
 
         List<Integer> odds = new ArrayList<>();
         List<Integer> evens = new ArrayList<>();
