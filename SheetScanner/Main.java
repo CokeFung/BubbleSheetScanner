@@ -11,7 +11,7 @@ public class Main {
     static { System.loadLibrary(Core.NATIVE_LIBRARY_NAME);}
 
     public static void main(String[] args) throws Exception {
-        Mat source = Imgcodecs.imread(getInput("ex_1.jpg"));
+        Mat source = Imgcodecs.imread(getInput("ex_2.jpg"));
         findQuad.Quadrilateral quad = findQuad.findDocument(source);
         findQuad.setTrans(quad, findQuad.mark4Point(source, quad.points));
         String[] Answers = findQuad.findBubble(quad);
