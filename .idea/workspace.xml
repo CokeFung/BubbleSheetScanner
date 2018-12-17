@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7504fd-3e1e-4a48-8c44-1026c735ed24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SheetScanner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SheetScanner/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/output/result.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/output/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/output/step_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/output/step_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/output/step_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/output/step_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/output/step_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/output/step_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +15,7 @@
     <session id="-1735209503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.36" value="2" />
@@ -77,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SheetScanner/findQuad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="452">
+              <caret line="291" selection-start-line="291" selection-end-line="291" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Quadrilateral#0;class#findQuad#0" />
@@ -101,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SheetScanner/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="400">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +156,7 @@
             </path>
             <path>
               <item name="BubbleSheetScanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BubbleSheetScanner" type="462c0819:PsiDirectoryNode" />
-              <item name="SheetScanner" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +169,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545059371849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545061191384" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GuiJava-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -255,22 +250,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10554371" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.10554371" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4946695" weight="0.23969631" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.13539445" side_tool="true" visible="true" weight="0.30368763" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.13539445" side_tool="true" visible="true" weight="0.23535791" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.86460555" visible="true" weight="0.30368763" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.86460555" weight="0.23535791" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49840087" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -338,16 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SheetScanner/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SheetScanner/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -362,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SheetScanner/findQuad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="452">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Quadrilateral#0;class#findQuad#0" />
@@ -378,6 +362,16 @@
             <element signature="e#11666#11667#0" expanded="true" />
             <element signature="e#11759#11760#0" expanded="true" />
             <element signature="method#chooseFilledCircle#0;class#findQuad#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SheetScanner/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
